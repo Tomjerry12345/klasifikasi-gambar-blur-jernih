@@ -1,0 +1,30 @@
+name: klasifikasi_gambar_blur_jernih
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.9
+  animated_notch_bottom_bar: ^0.0.6
+  image_picker: ^0.8.7+5
+  dropdown_textfield: ^1.0.8
+  flutter_spinkit: ^5.2.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
