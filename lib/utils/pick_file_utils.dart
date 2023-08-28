@@ -14,6 +14,16 @@ Future<File?> pickImage() async {
   return image;
 }
 
+Future<File?> pickCamera() async {
+  final pickedFile = await _picker.pickImage(source: ImageSource.camera);
+
+  if (pickedFile == null) return null;
+
+  File image = File(pickedFile.path);
+
+  return image;
+}
+
 Future<File?> pickVideo() async {
   final pickedFile = await _picker.pickVideo(source: ImageSource.gallery);
 
