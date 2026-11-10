@@ -1,5 +1,3 @@
-# Blurry or Sharp Image Classifier
-
 A Flutter mobile app that tells you whether a photo is blurry or sharp. Take a photo or pick one from the gallery, and the app sends it to a classification server and shows the result as blur and sharp percentages.
 
 ## Model
